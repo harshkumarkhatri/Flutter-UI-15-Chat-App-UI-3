@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 Widget meItem2() {
   return Container(
     // height: 75,
-    color: Colors.indigo,
+    // color: Colors.indigo,
     child: Row(
       children: [
-        SizedBox(width: 75),
+        SizedBox(width: 70),
         Expanded(
             child: Padding(
           padding: EdgeInsets.only(
@@ -26,7 +26,7 @@ Widget meItem2() {
               padding: const EdgeInsets.all(15.0),
               child: Center(
                 child: Text(
-                  "hey how are you  jjjjjj jjjjj jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+                                            "hey how are you  jjjjjj jjjjj jjjjjj jjjjjjjjjjjjj jjjjjj jjjjjjjjj",
                   textAlign: false ? TextAlign.right : TextAlign.left,
                   style: TextStyle(
                     fontSize: 12,

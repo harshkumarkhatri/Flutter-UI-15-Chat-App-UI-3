@@ -3,18 +3,18 @@ import 'package:flutter/material.dart';
 Widget meItem1() {
   return Container(
     // height: 75,
-    color: Colors.indigo,
+    // color: Colors.indigo,
     child: Row(
       children: [
         Container(
           height: 60,
           width: 60,
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: Colors.black,
             shape: BoxShape.circle,
           ),
         ),
-        SizedBox(width: 15),
+        SizedBox(width: 10),
         Expanded(
             child: Padding(
           padding: EdgeInsets.only(
